@@ -1,5 +1,5 @@
 {
-    "name": "TypedocThemeDumi",
+    "name": "Typedoc Theme Dumi",
     "entryPoints": [
         "src/index.tsx"
     ],
@@ -19,20 +19,20 @@
     ],
     "includeVersion": false,
     "navigationLinks": {
-        "GitHub": "https://github.com/unikueltd/typedoc-theme-dumi",
-        "Unikue": "https://unikue.cn"
+        "GitHub": "https://github.com/jiovan-labs/typedoc-theme-dumi",
+        "Jiovan": "https://jiovan.com"
     },
     "plugin": [
         "./dist/lib/index.js"
     ],
     "theme": "dumi",
-    "logoImage": "https://unikueltd.github.io/assets/ico/logo-icon.svg",
+    "logoImage": "https://jiovan-labs.github.io/assets/ico/logo-icon.svg",
     "logoWidth": 32,
     "logoHeight": 32,
     "logoTitle": "Typedoc Theme Dumi",
     "navigationLinkTargets": {
         "GitHub": "_blank",
-        "Unikue": "_blank"
+        "Jiovan": "_blank"
     },
     "preventModulesLink": true,
     "hideIndexContentTitle": true,

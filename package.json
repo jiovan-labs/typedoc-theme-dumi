@@ -1,10 +1,10 @@
 {
-    "name": "@unikue/typedoc-theme-dumi",
-    "version": "1.1.3",
-    "title": "TypedocThemeDumi",
+    "name": "@jiovan-labs/typedoc-theme-dumi",
+    "version": "2.0.0",
+    "title": "Typedoc Theme Dumi",
     "description": "Dumi theme for typedoc, maybe the most beautiful typedoc theme on Mars",
-    "homepage": "https://unikueltd.github.io/typedoc-theme-dumi",
-    "organization": "Unikue Ltd",
+    "homepage": "https://jiovan-labs.github.io/typedoc-theme-dumi",
+    "organization": "Jiovan Ltd",
     "private": false,
     "license": "MIT",
     "keywords": [
@@ -20,6 +20,7 @@
     "type": "module",
     "sideEffects": false,
     "scripts": {
+        "approve": "npm approve-scripts --allow-scripts-pending",
         "build": "npm run build:script && npm run build:style",
         "build:script": "del-cli ./dist && tsc --outDir ./dist/lib",
         "build:style": "lessc src/asset/dumi.less ./dist/lib/assets/dumi.css --no-comment",
@@ -34,51 +35,50 @@
         "upgrade": "npx npm-check-updates --target semver -u"
     },
     "devDependencies": {
-        "@eslint/eslintrc": "^3.3.5",
+        "@eslint/eslintrc": "^3.3.7",
         "@eslint/js": "^10.0.1",
-        "@types/node": "^25.9.4",
+        "@types/node": "^25.9.9",
         "del-cli": "^7.0.0",
-        "eslint": "^10.5.0",
+        "eslint": "^10.14.0",
         "gh-pages": "^6.3.0",
-        "globals": "^17.7.0",
-        "less": "^4.6.7",
+        "globals": "^17.14.0",
+        "less": "^4.9.1",
         "less-plugin-no-comment": "^0.1.0",
         "stylelint-config-standard-less": "^4.1.0",
-        "typedoc": "~0.28.19",
+        "typedoc": "~0.28.20",
         "typescript": "^6.0.3",
-        "typescript-eslint": "^8.62.0"
+        "typescript-eslint": "^8.72.1"
     },
     "peerDependencies": {
         "typescript": ">=4.0.0"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/unikueltd/typedoc-theme-dumi.git"
+        "url": "git+https://github.com/jiovan-labs/typedoc-theme-dumi.git"
     },
     "bugs": {
-        "url": "https://github.com/unikueltd/typedoc-theme-dumi/issues"
+        "url": "https://github.com/jiovan-labs/typedoc-theme-dumi/issues"
     },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org"
     },
     "collective": {
-        "url": "https://opencollective.com/unikue-awesome"
+        "url": "https://opencollective.com/jiovan-labs"
     },
     "funding": [
         {
             "type": "opencollective",
-            "url": "https://opencollective.com/unikue-awesome"
+            "url": "https://opencollective.com/jiovan-labs"
         },
         {
             "type": "individual",
-            "url": "https://unikue.cn/donation"
+            "url": "https://jiovan.com/donation"
         }
     ],
     "author": {
-        "name": "Unikue Ltd",
-        "email": "unikue@yeah.net",
-        "url": "https://unikue.cn"
+        "name": "Jiovan Ltd",
+        "url": "https://jiovan.com"
     },
     "contributors": [
         {

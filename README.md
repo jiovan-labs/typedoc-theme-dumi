@@ -1,8 +1,8 @@
-# @unikue/typedoc-theme-dumi
+# @jiovan-labs/typedoc-theme-dumi
 
-[![NPM version](https://img.shields.io/npm/v/@unikue/typedoc-theme-dumi.svg?style=flat)](https://npmjs.org/package/@unikue/typedoc-theme-dumi)
+[![NPM version](https://img.shields.io/npm/v/@jiovan-labs/typedoc-theme-dumi.svg?style=flat)](https://npmjs.org/package/@jiovan-labs/typedoc-theme-dumi)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.txt)
-[![NPM downloads](http://img.shields.io/npm/dm/@unikue/typedoc-theme-dumi.svg?style=flat)](https://npmjs.org/package/@unikue/typedoc-theme-dumi)
+[![NPM downloads](http://img.shields.io/npm/dm/@jiovan-labs/typedoc-theme-dumi.svg?style=flat)](https://npmjs.org/package/@jiovan-labs/typedoc-theme-dumi)
 
 🏅 Dumi theme for typedoc, maybe the most beautiful typedoc theme on Mars 😁
 
@@ -26,18 +26,18 @@
 
 ## Demo
 
-🖼️ The live example of this theme is here: [https://unikueltd.github.io/typedoc-theme-dumi](https://unikueltd.github.io/typedoc-theme-dumi)
+🖼️ The live example of this theme is here: [https://jiovan-labs.github.io/typedoc-theme-dumi](https://jiovan-labs.github.io/typedoc-theme-dumi)
 
 ## Snapshot
 
-![snapshot](https://raw.githubusercontent.com/unikueltd/typedoc-theme-dumi/trunk/docs/snapshot.png)
+![snapshot](https://raw.githubusercontent.com/jiovan/typedoc-theme-dumi/trunk/docs/snapshot.png)
 
 ## Quickstart
 
 You can install this package in your typescript project as follows:
 
 ```bash
-$ npm install @unikue/typedoc-theme-dumi --save-dev
+$ npm install @jiovan-labs/typedoc-theme-dumi --save-dev
 ```
 
 Enjoy your coding journey with `typedoc-theme-dumi` ✌️
@@ -47,7 +47,7 @@ Enjoy your coding journey with `typedoc-theme-dumi` ✌️
 - Using in command line
 
 ```bash
-$ typedoc [TARGET] --plugin @unikue/typedoc-theme-dumi --theme dumi
+$ typedoc [TARGET] --plugin @jiovan-labs/typedoc-theme-dumi --theme dumi
 ```
 
 - Using in `typedoc.json`
@@ -55,7 +55,7 @@ $ typedoc [TARGET] --plugin @unikue/typedoc-theme-dumi --theme dumi
 ```json
 {
     "plugin": [
-        "@unikue/typedoc-theme-dumi"
+        "@jiovan-labs/typedoc-theme-dumi"
     ],
     "theme": "dumi"
 }
@@ -89,10 +89,11 @@ Here are the associated versions with this package:
 | v0.4.x             | v0.28.x | &gt;= v5.0 |
 | v1.0.x             | v0.28.x | &gt;= v5.0 |
 | v1.1.x             | v0.28.x | &gt;= v5.0 |
+| v2.0.x             | v0.28.x | &gt;= v5.0 |
 
 ## Document
 
-- GitHub pages: [https://unikueltd.github.io/typedoc-theme-dumi](https://unikueltd.github.io/typedoc-theme-dumi)
+- GitHub pages: [https://jiovan-labs.github.io/typedoc-theme-dumi](https://jiovan-labs.github.io/typedoc-theme-dumi)
 
 ## Thanks
 
@@ -106,8 +107,8 @@ This project is under the [MIT License](https://mit-license.org/).
 
 ## Copyright
 
-Beijing Unikue Network Technology Ltd.
+Beijing Jiovan Technology Ltd.
 
 ## Website
 
-- Unikue: [https://unikue.cn](https://unikue.cn)
+- Jiovan: [https://jiovan.com](https://jiovan.com)
